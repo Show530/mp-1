@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="projects.css">
+    <title>Projects</title>
+</head>
+    <body>
+    <div id="Page-wrapper">
+    <header>
+        <h1>Projects</h1>
+        <p>Project section of the resume</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../education/education.html">Education</a></li>
+            <li><a href="../employment/work-experience.html">Employment</a></li>
+            <li><a href="../leadership-activities.html">Leadership and Activities</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Projects</h2>
+        <h3>Tetris Machine Learning AI model | Boston, MA</h3>
+        <ul>
+            <li>Designed a custom reward function to optimize agent performance, evaluating game states for effectiveness and
+                aligning with Tetris strategies.</li>
+            <li>Implemented exploration strategies to balance exploitation of known policies and discovery of novel gameplay
+                approaches.</li>
+            <li>Trained neural networks using temporal difference learning with replay buffers, leveraging supervised learning
+                techniques for game trajectory data.</li>
+        </ul>
+        <h3>Web Penetration Testing lab | Boston, MA</h3>
+        <ul>
+            <li>Identified and exploited vulnerabilities like SQL Injection, cross-site scripting, and cross-site request forgery in a
+                simulated web application to test security defenses using Python, MySQL, HTML, and JavaScript.</li>
+            <li>Exploited authentication vulnerabilities (e.g., brute-force, hash reversal, XOR encryption) to gain unauthorized
+                admin access in web applications.</li>
+            <li>Developed automated scripts using Python and Docker to bypass security mechanisms and test password storage
+                flaws in 6 separate accounts.</li>
+        </ul>
+        <h3>Java Script Calculator</h3>
+        <label for="first-number">First number: </label><input id="first-number">
+        <label for="second-number">Second number: </label><input id="second-number">
+        <button onclick="addition()"> + </button>
+        <button onclick="subtraction()"> - </button>
+        <button onclick="multiplication()"> * </button>
+        <button onclick="division()"> / </button>
+        <button onclick="power()"> ** </button>
+        <button onclick="resetCalc()"> Clear </button>
+        <h3 id="output"></h3>
+    </main>
+    <footer>
+        All rights reserved by Sophia Howson <a href="../credits/credits.html">Credits</a> &copy;
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
