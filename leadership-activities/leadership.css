@@ -58,10 +58,6 @@ main{
     padding: 2vw;
 }
 
-h2, h3, main ul {
-    margin-bottom: 1vw;
-}
-
 p {
     font-size: calc(5px + 1vw);
 }
@@ -71,9 +67,8 @@ footer {
     text-align: center;
 }
 
-img {
-    max-width: 500px;
-    margin-bottom: 2vw;
+h2, h3, main ul {
+    margin-bottom: 1vw;
 }
 
 @media screen and (max-width: 900px) {
@@ -86,10 +81,6 @@ img {
         justify-content: center;
     }
 
-    img {
-        display: block;
-        margin: auto;
-    }
     nav{
         width: 100%;
     }
