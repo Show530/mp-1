@@ -43,14 +43,18 @@
                         flaws in 6 separate accounts.</li>
                 </ul>
                 <h3>Java Script Calculator</h3>
-                <label for="first-number">First number: </label><input id="first-number">
-                <label for="second-number">Second number: </label><input id="second-number">
-                <button onclick="addition()"> + </button>
-                <button onclick="subtraction()"> - </button>
-                <button onclick="multiplication()"> * </button>
-                <button onclick="division()"> / </button>
-                <button onclick="power()"> ** </button>
-                <button onclick="resetCalc()"> Clear </button>
+                <div id="inputs">
+                    <label for="first-number">First number: </label><input id="first-number">
+                    <label for="second-number">Second number: </label><input id="second-number">
+                </div>
+                <div id="buttons">
+                    <button onclick="addition()"> + </button>
+                    <button onclick="subtraction()"> - </button>
+                    <button onclick="multiplication()"> * </button>
+                    <button onclick="division()"> / </button>
+                    <button onclick="powerFunc()"> ** </button>
+                    <button onclick="resetCalc()"> Clear </button>
+                </div>
                 <h3 id="output"></h3>
             </main>
         </div>

@@ -61,7 +61,7 @@ function division() {
     display(result);
 }
 
-function power() {
+function powerFunc() {
     const firstNumberInput = document.getElementById("first-number").value;
     const secondNumberInput = document.getElementById("second-number").value;
 
@@ -69,6 +69,10 @@ function power() {
     const secondNumber = Number(secondNumberInput);
 
     let result = 1;
+
+    if (firstNumber === 0 && secondNumber === 0) {
+        let result = 0;
+    }
 
     for(let i = 1; i <= secondNumber; i++) {
         result *= firstNumber;

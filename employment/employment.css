@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-#page-wrapper{
+#page-wrapper {
     width: 80vw;
     background-color: pink;
     margin: auto;
@@ -28,30 +28,28 @@ nav {
     width: 25%;
 }
 
-nav ul{
+nav ul {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     list-style: none;
     text-align: center;
-    /*background-color: bisque;*/
     padding-left: 0;
 }
 
 nav li {
     width: 50%;
-    /*width: 50%;*/
     padding: 2vh 0;
     margin: 2vw auto;
     background-color: #d788d7;
     border-radius: 5%;
 }
 
-nav a{
+nav a {
     text-decoration: none;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -71,45 +69,36 @@ footer {
     text-align: center;
 }
 
-img {
-    max-width: 500px;
-    margin-bottom: 2vw;
-}
-
 @media screen and (max-width: 900px) {
-    header{
+    header {
         align-items: center;
     }
 
-    #container{
+    #container {
         flex-direction: column;
         justify-content: center;
     }
 
-    img {
-        display: block;
-        margin: auto;
-    }
-    nav{
+    nav {
         width: 100%;
     }
 
-    nav ul{
+    nav ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         list-style: none;
         padding-left: 0;
     }
-    nav li{
+
+    nav li {
         font-size: calc(2px + 1.5vw);
         padding: 1% .5%;
         margin: 1% .5%;
-        /*line-height: 15px;*/
-        /*vertical-align: middle;*/
         display: grid;
         align-items: center;
     }
+
     main {
         width:100%;
         background-color: aquamarine;
