@@ -8,6 +8,7 @@
     background-color: pink;
     margin: auto;
     font-size: calc(1px + 1.2vw);
+    font-family: Georgia, Garamond, serif;
 }
 
 header {
@@ -22,7 +23,6 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
-    position: relative;
 }
 
 nav {
