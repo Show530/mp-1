@@ -54,6 +54,8 @@ main {
     flex-direction: column;
     width: 70%;
     padding: 2vw;
+    font-size: calc(1px + 1.2vw);
+
 }
 
 table td {

@@ -72,18 +72,23 @@ function powerFunc() {
 
     if (firstNumber === 0 && secondNumber === 0) {
         let result = 0;
+        display(result);
+    }
+    else {
+        for (let i = 1; i <= secondNumber; i++) {
+            result *= firstNumber;
+            console.log(result);
+        }
+        display(result);
     }
 
-    for(let i = 1; i <= secondNumber; i++) {
-        result *= firstNumber;
-        console.log(result);
-    }
 
-    display(result);
 }
 
 // reset calc - 3 fields
 function resetCalc() {
+    document.getElementById("first-number").value = '';
+    document.getElementById("second-number").value = '';
 
-
+    document.getElementById("output").innerHTML = '';
 }

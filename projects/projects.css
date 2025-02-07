@@ -7,6 +7,8 @@
     width: 80vw;
     background-color: pink;
     margin: auto;
+    font-size: calc(1px + 1.2vw);
+
 }
 
 header {
@@ -125,7 +127,18 @@ footer {
 
     #inputs {
         flex-direction: column;
+        text-align: center;
         width: 100%;
+        background-color: #d788d7;
+    }
+
+    #inputs input {
+        width: 50%;
+        margin: auto;
+    }
+
+    #first-number {
+        margin-right: 0;
     }
 
     main {
