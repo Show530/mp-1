@@ -86,6 +86,7 @@ img {
     img {
         display: block;
         margin: auto;
+        max-width: 50%;
     }
     nav{
         width: 100%;
