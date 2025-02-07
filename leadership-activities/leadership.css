@@ -15,8 +15,7 @@ header {
     display: flex;
     flex-direction: column;
     padding: 1vw;
-    background-color: lightblue;
-
+    background-color: #f68294;
 }
 
 #container {

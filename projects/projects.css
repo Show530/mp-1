@@ -15,8 +15,7 @@ header {
     display: flex;
     flex-direction: column;
     padding: 1vw;
-    background-color: lightblue;
-
+    background-color: #f68294;
 }
 
 #container {
@@ -75,6 +74,11 @@ p {
     margin-right: 1vw;
 }
 
+#inputs input {
+    border:  #f68294 solid 2px;
+    background-color: antiquewhite;
+}
+
 #first-number {
     margin-right: 2vw;
 }
@@ -86,6 +90,9 @@ p {
 
 #buttons button {
     margin-right: 1vw;
+    border:  #f68294 solid 2px;
+    background-color: antiquewhite;
+    border-radius: 15%;
 }
 
 footer {
@@ -128,7 +135,6 @@ footer {
         flex-direction: column;
         text-align: center;
         width: 100%;
-        background-color: #d788d7;
     }
 
     #inputs input {
@@ -142,7 +148,6 @@ footer {
 
     main {
         width:100%;
-        background-color: aquamarine;
     }
 
 
