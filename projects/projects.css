@@ -75,7 +75,7 @@ p {
 }
 
 #inputs input {
-    border:  #f68294 solid 2px;
+    border:  #f68294 solid 0.2vw;
     background-color: antiquewhite;
 }
 
@@ -90,7 +90,7 @@ p {
 
 #buttons button {
     margin-right: 1vw;
-    border:  #f68294 solid 2px;
+    border:  #f68294 solid 0.2vw;
     background-color: antiquewhite;
     border-radius: 15%;
 }
